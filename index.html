@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ebook Sharing</title>
+</head>
+<body>
+
+    <div class="ebook-list">
+        <ul>
+            <li class="no-border">
+                <div class="img-container">
+                    <img src="ebook1.jpg" alt="Ebook 1">
+                </div>
+                <div class="description-container">
+                    <h3>Title of Ebook 1</h3>
+                    <ul>
+                        <li class="no-border">Author: Author Name</li>
+                        <li class="no-border">Genre: Fiction</li>
+                    </ul>
+                </div>
+                <div class="button-container">
+                    <a href="download-link-for-ebook1" target="_blank">Download</a>
+                </div>
+            </li>
+            <!-- Repeat the structure for additional ebooks -->
+        </ul>
+        <div class="donate-container">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                <input type="hidden" name="cmd" value="_donations">
+                <input type="hidden" name="business" value="ngocthai2702@gmail.com">
+                <input type="hidden" name="item_name" value="Support for My Work">
+                <input type="hidden" name="currency_code" value="USD">
+                <input type="hidden" name="amount" value="1">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
