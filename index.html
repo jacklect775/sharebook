@@ -15,7 +15,7 @@
 <body>
 
     <div class="ebook-list">
-        <ul>
+        <ul id="myList">
             <li class="no-border"> <!-- 01 -->
                 <div class="img-container">
                     <img src="https://i.ibb.co/zP5vcYH/10-quy-luat-cuoc-song.jpg" alt="10 Quy Luật Cuộc Sống">
@@ -303,5 +303,23 @@
             </form>
         </div>
     </div>
+<script>
+    const myList = document.querySelector('#myList');
+    const listItems = Array.from(myList.children);
+  
+    listItems.sort((a, b) => {
+      if (a.textContent < b.textContent) {
+        return 1;
+      } else if (a.textContent > b.textContent) {
+        return -1;
+      } else {
+        return 0;
+      }
+    });
+  
+    listItems.forEach((item) => {
+      myList.appendChild(item);
+    });
+</script>	
 </body>
 </html>
