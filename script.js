@@ -3,7 +3,7 @@ function searchList() {
   var input, filter, list, items, i, txtValue;
   input = document.getElementById("searchInput");
   filter = input.value.trim().toLowerCase();
-  list = document.getElementById("imageList");
+  list = document.getElementById("ebook-list");
   items = list.getElementsByTagName("li");
   var noResults = true;
 
@@ -37,7 +37,7 @@ document.addEventListener("keydown", function(event) {
 
 <!-- Sap xep thep thu tu tu a den z -->
 <script>
-    const myList = document.querySelector('#myList');
+    const myList = document.querySelector('#ebook-list');
     const listItems = Array.from(myList.children);
   
     listItems.sort((a, b) => {
