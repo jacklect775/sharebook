@@ -82,12 +82,12 @@ li {
   border: 1px solid #ccc;
   border-radius: 5px;
   margin-right: 5px;
-  flex-grow: 1;
+  flex-grow: 2; /* Chiều rộng linh hoạt, tăng giá trị để làm ô tìm kiếm dài hơn */
 }
 
 #searchInput:focus {
   outline: none;
-  border-color: #007BFF; /* Màu sắc khi ô tìm kiếm được focus */
+  border-color: #007BFF;
 }
 
 button {
@@ -101,5 +101,6 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3; /* Màu sắc khi di chuột qua nút tìm kiếm */
+  background-color: #0056b3;
 }
+
