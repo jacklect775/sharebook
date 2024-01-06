@@ -1,44 +1,43 @@
 <!-- main script -->
 function searchList() {
-    var input, filter, list, items, i, txtValue;
-    input = document.getElementById("searchInput");
-    filter = input.value.trim().toLowerCase();
-    list = document.getElementsByClassName("ebook-list")[0]; // Sửa thành lớp chứa danh sách
-    items = list.getElementsByTagName("li");
-    var noResults = true;
+  var input, filter, list, items, i, txtValue;
+  input = document.getElementById("searchInput");
+  filter = input.value.trim().toLowerCase();
+  list = document.getElementById("imageList");
+  items = list.getElementsByTagName("li");
+  var noResults = true;
 
-    for (i = 0; i < items.length; i++) {
-        txtValue = items[i].querySelector(".description-container h3").textContent.toLowerCase();
-        if (txtValue.includes(filter)) {
-            items[i].style.display = "block";
-            noResults = false;
-        } else {
-            items[i].style.display = "none";
-        }
+  for (i = 0; i < items.length; i++) {
+    txtValue = items[i].querySelector(".image-description").textContent.toLowerCase();
+    if (txtValue.indexOf(filter) > -1) {
+      items[i].style.display = "block";
+      noResults = false;
+    } else {
+      items[i].style.display = "none";
     }
+  }
 
-    // Thêm hiển thị thông báo khi không tìm thấy kết quả
-    var noResultMessage = document.getElementById("noResultMessage");
-    if (noResultMessage) {
-        noResultMessage.style.display = noResults ? "block" : "none";
-    }
+  var noResultMessage = document.getElementById("noResultMessage");
+  if (noResults) {
+    noResultMessage.style.display = "block";
+  } else {
+    noResultMessage.style.display = "none";
+  }
 }
-
 <!-- Ngăn chặn sự kiện khi nhấn các tổ hợp phím Ctrl + U, Ctrl + S, Ctrl + I, Ctrl + C -->
 
 document.addEventListener("keydown", function(event) {
     // Kiểm tra xem người dùng có đang nhấn tổ hợp phím Ctrl + S, Ctrl + U hoặc Ctrl + I không
     if ((event.ctrlKey || event.metaKey) && (event.key === "s" || event.key === "u" || event.key === "i")) {
         // Chuyển trang web đến link được chỉ định trước
-        window.location.href = "https://jacklect775.github.io/sharebook/"; // Thay đổi URL theo đúng link bạn muốn chuyển đến
+        window.location.href = "https://web1s.co/note/Kohooa92WP"; // Thay đổi URL theo đúng link bạn muốn chuyển đến
         event.preventDefault(); // Ngăn ngừng xảy ra sau khi thực hiện hành động
     }
 });
 
-<!-- Sap xep thep thu tu tu a den z -->
-<script>
-    const myList = document.querySelector('#ebook-list');
-    const listItems = Array.from(myList.children);
+<!-- Sap xep thep thu tu tu A den Z -->
+const myList = document.querySelector('#imageList');
+    const listItems = Array.from(imageList.children);
   
     listItems.sort((a, b) => {
       if (a.textContent < b.textContent) {
@@ -51,6 +50,5 @@ document.addEventListener("keydown", function(event) {
     });
   
     listItems.forEach((item) => {
-      myList.appendChild(item);
+      imageList.appendChild(item);
     });
-</script>
