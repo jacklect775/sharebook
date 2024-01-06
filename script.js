@@ -41,9 +41,9 @@ const myList = document.querySelector('#imageList');
   
     listItems.sort((a, b) => {
       if (a.textContent < b.textContent) {
-        return 1;
-      } else if (a.textContent > b.textContent) {
         return -1;
+      } else if (a.textContent > b.textContent) {
+        return 1;
       } else {
         return 0;
       }
