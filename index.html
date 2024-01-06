@@ -1,852 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Ebook Sharing</title>
-	<script type="text/javascript">
-		var web1s_url = 'https://web1s.com/';
-		var web1s_api_token = 'd45ccb5e-9975-40d9-93fd-244ffd41d8b3';
-		var web1s_domains = ["tinyurl.com","archive.org","www.fshare.vn","drive.google.com"];
-	</script>
-	<script src='//web1s.com/js/full-page-script.js'></script>
+    <link rel="icon" type="image/x-icon" href="/image/favicon.ico">
+    <link href='https://heomunmun.github.io/gmagazine' rel='canonical' />
+    <meta content='https://heomunmun.github.io/gmagazine/' property='og:url' />
+    <meta content='Ebook & Video Trai Đẹp Miễn Phí' property='og:title' />
+    <meta content='Ebook & Video Trai Đẹp Download Miễn Phí, Nhanh Chóng, Dễ Dàng, Không Quảng Cáo' property='og:description' />
 </head>
-<body>
 
-    <div class="ebook-list">
-        <ul>
-            <li class="no-border"> <!-- 01 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/zP5vcYH/10-quy-luat-cuoc-song.jpg" alt="10 Quy Luật Cuộc Sống">
-                </div>
-                <div class="description-container">
-                    <h3>10 QUY LUẬT CUỘC SỐNG</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Dan Sullivan & Catherine Nomura</li>
-                        <li class="no-border">Thể Loại: Kỹ Năng Sống</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container" >
-							<a href="https://archive.org/download/ebook-for-free/10%20Quy%20lu%E1%BA%ADt%20cu%E1%BB%99c%20s%E1%BB%91ng%20-%20Dan%20Sullivan%20-%20Catherine%20Nomura_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>	
-                    </ul>
-                </div>
-            </li>
-            <li class="no-border"> <!-- 02 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/6B15zM4/10-van-cau-hoi-vi-sao-co-the-nguoi-2.jpg" alt="10 Vạn Câu Hỏi Vì Sao - Cơ Thể Người">
-                </div>
-                <div class="description-container">
-                    <h3>10 VẠN CÂU HỎI VÌ SAO - CƠ THỂ NGƯỜI</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Nguyễn Văn Mậu</li>
-                        <li class="no-border">Thể Loại: Bách Khoa Tri Thức</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/10%20V%E1%BA%A1n%20C%C3%A2u%20H%E1%BB%8Fi%20V%C3%AC%20Sao%20-%20C%C6%A1%20Th%E1%BB%83%20Ng%C6%B0%E1%BB%9Di%20-%20Nguy%E1%BB%85n%20V%C4%83n%20M%E1%BA%ADu_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 03 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/Zd5SGnw/10-van-cau-hoi-vi-sao-hoa-hoc.jpg" alt="10 Vạn Câu Hỏi Vì Sao - Hóa Học">
-                </div>
-                <div class="description-container">
-                    <h3>10 VẠN CÂU HỎI VÌ SAO - HÓA HỌC</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Nguyễn Văn Mậu</li>
-                        <li class="no-border">Thể Loại: Bách Khoa Tri Thức</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/10%20V%E1%BA%A1n%20C%C3%A2u%20H%E1%BB%8Fi%20V%C3%AC%20Sao%20-%20H%C3%B3a%20H%E1%BB%8Dc%20-%20Nguy%E1%BB%85n%20V%C4%83n%20M%E1%BA%ADu_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 04 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/jWK2zbX/10-van-cau-hoi-vi-sao-khoa-hoc-cong-trinh.jpg" alt="10 Vạn Câu Hỏi Vì Sao - Khoa Học Công Trình">
-                </div>
-                <div class="description-container">
-                    <h3>10 VẠN CÂU HỎI VÌ SAO - KHOA HỌC CÔNG TRÌNH</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Nguyễn Văn Mậu</li>
-                        <li class="no-border">Thể Loại: Bách Khoa Tri Thức</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/10%20V%E1%BA%A1n%20C%C3%A2u%20H%E1%BB%8Fi%20V%C3%AC%20Sao%20-%20Khoa%20H%E1%BB%8Dc%20C%C3%B4ng%20Tr%C3%ACnh%20-%20Nguy%E1%BB%85n%20V%C4%83n%20M%E1%BA%ADu_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 05 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/2SdX2FJ/10-van-cau-hoi-vi-sao-dong-vat.jpg" alt="10 Vạn Câu Hỏi Vì Sao - Động Vật">
-                </div>
-                <div class="description-container">
-                    <h3>10 VẠN CÂU HỎI VÌ SAO - ĐỘNG VẬT</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Nguyễn Văn Mậu</li>
-                        <li class="no-border">Thể Loại: Bách Khoa Tri Thức</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/10%20V%E1%BA%A1n%20C%C3%A2u%20H%E1%BB%8Fi%20V%C3%AC%20Sao%20-%20%C4%90%E1%BB%99ng%20V%E1%BA%ADt%20-%20Nguy%E1%BB%85n%20V%C4%83n%20M%E1%BA%ADu_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 06 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/64fVtNm/10-van-cau-hoi-vi-sao-thuc-vat.jpg" alt="10 Vạn Câu Hỏi Vì Sao - Thực Vật">
-                </div>
-                <div class="description-container">
-                    <h3>10 VẠN CÂU HỎI VÌ SAO - THỰC VẬT</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Nguyễn Văn Mậu</li>
-                        <li class="no-border">Thể Loại: Bách Khoa Tri Thức</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/10%20V%E1%BA%A1n%20C%C3%A2u%20H%E1%BB%8Fi%20V%C3%AC%20Sao%20-%20Th%E1%BB%B1c%20V%E1%BA%ADt%20-%20Nguy%E1%BB%85n%20V%C4%83n%20M%E1%BA%ADu_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 07 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/rmMrHsz/10-van-cau-hoi-vi-sao-vat-ly.jpg" alt="10 Vạn Câu Hỏi Vì Sao - Vật lý">
-                </div>
-                <div class="description-container">
-                    <h3>10 VẠN CÂU HỎI VÌ SAO - VẬT LÝ</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Nguyễn Văn Mậu</li>
-                        <li class="no-border">Thể Loại: Bách Khoa Tri Thức</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/10%20V%E1%BA%A1n%20C%C3%A2u%20H%E1%BB%8Fi%20V%C3%AC%20Sao%20-%20V%E1%BA%ADt%20L%C3%BD%20-%20Nguy%E1%BB%85n%20V%C4%83n%20M%E1%BA%ADu_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 08 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/BnMPT0p/10-van-cau-hoi-vi-sao-toan-hoc.jpg" alt="10 Vạn Câu Hỏi Vì Sao - Toán Học">
-                </div>
-                <div class="description-container">
-                    <h3>10 VẠN CÂU HỎI VÌ SAO - TOÁN HỌC</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Nguyễn Văn Mậu</li>
-                        <li class="no-border">Thể Loại: Bách Khoa Tri Thức</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/10%20V%E1%BA%A1n%20C%C3%A2u%20H%E1%BB%8Fi%20V%C3%AC%20Sao%20-%20To%C3%A1n%20H%E1%BB%8Dc%20-%20Nguy%E1%BB%85n%20V%C4%83n%20M%E1%BA%ADu_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 09 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/j9CKRxq/10-van-cau-hoi-vi-sao-tin-hoc.jpg" alt="10 Vạn Câu Hỏi Vì Sao - Tin Học">
-                </div>
-                <div class="description-container">
-                    <h3>10 VẠN CÂU HỎI VÌ SAO - TIN HỌC</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Nguyễn Văn Mậu</li>
-                        <li class="no-border">Thể Loại: Bách Khoa Tri Thức</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/10%20V%E1%BA%A1n%20C%C3%A2u%20H%E1%BB%8Fi%20V%C3%AC%20Sao%20-%20Tin%20H%E1%BB%8Dc%20-%20Nguy%E1%BB%85n%20V%C4%83n%20M%E1%BA%ADu_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 10 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/Q9x285b/10-van-cau-hoi-vi-sao-trai-dat.jpg" alt="10 Vạn Câu Hỏi Vì Sao - Trái Đất">
-                </div>
-                <div class="description-container">
-                    <h3>10 VẠN CÂU HỎI VÌ SAO - TRÁI ĐẤT</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Nguyễn Văn Mậu</li>
-                        <li class="no-border">Thể Loại: Bách Khoa Tri Thức</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/10%20V%E1%BA%A1n%20C%C3%A2u%20H%E1%BB%8Fi%20V%C3%AC%20Sao%20-%20Tr%C3%A1i%20%C4%90%E1%BA%A5t%20-%20Nguy%E1%BB%85n%20V%C4%83n%20M%E1%BA%ADu_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 11 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/ScKDWSB/10-van-cau-hoi-vi-sao-khoa-hoc-vu-tru.jpg" alt="10 Vạn Câu Hỏi Vì Sao - Khoa Học Vũ Trụ">
-                </div>
-                <div class="description-container">
-                    <h3>10 VẠN CÂU HỎI VÌ SAO - KHOA HỌC VŨ TRỤ</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Nguyễn Văn Mậu</li>
-                        <li class="no-border">Thể Loại: Bách Khoa Tri Thức</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/10%20V%E1%BA%A1n%20C%C3%A2u%20H%E1%BB%8Fi%20V%C3%AC%20Sao%20-%20Khoa%20H%E1%BB%8Dc%20V%C5%A9%20Tr%E1%BB%A5%20-%20Nguy%E1%BB%85n%20V%C4%83n%20M%E1%BA%ADu_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 12 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/7VXtNKb/10-van-cau-hoi-vi-sao-khoa-hoc-moi-truong.jpg" alt="10 Vạn Câu Hỏi Vì Sao - Khoa Học Môi Trường">
-                </div>
-                <div class="description-container">
-                    <h3>10 VẠN CÂU HỎI VÌ SAO - KHOA HỌC MÔI TRƯỜNG</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Nguyễn Văn Mậu</li>
-                        <li class="no-border">Thể Loại: Bách Khoa Tri Thức</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/10%20V%E1%BA%A1n%20C%C3%A2u%20H%E1%BB%8Fi%20V%C3%AC%20Sao%20-%20Khoa%20H%E1%BB%8Dc%20M%C3%B4i%20Tr%C6%B0%E1%BB%9Dng%20-%20Nguy%E1%BB%85n%20V%C4%83n%20M%E1%BA%ADu_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 13 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/rGm39Jb/10-bi-quyet-thanh-cong-cua-bill-gates.jpg" alt="10 bí quyết thành công của Bill Gates">
-                </div>
-                <div class="description-container">
-                    <h3>10 BÍ QUYẾT THÀNH CÔNG CỦA BILL GATES</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Des Dearlove</li>
-                        <li class="no-border">Thể Loại: Kinh Tế</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/10%20b%C3%AD%20quy%E1%BA%BFt%20th%C3%A0nh%20c%C3%B4ng%20c%E1%BB%A7a%20Bill%20Gates%20-%20Des%20Dearlove_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 14 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/1bpn5pG/10-buoc-xay-dung-thanh-cong-thuong-hieu-viet-tren-amazon.jpg" alt="10 bước xây dựng thành công thương hiệu trên Amazon">
-                </div>
-                <div class="description-container">
-                    <h3>10 BƯỚC XÂY DỰNG THÀNH CÔNG THƯƠNG HIỆU VIỆT TRÊN AMAZON</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Alex Trần, Tony Triệu</li>
-                        <li class="no-border">Thể Loại: Kinh Tế</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/10%20b%C6%B0%E1%BB%9Bc%20x%C3%A2y%20d%E1%BB%B1ng%20th%C3%A0nh%20c%C3%B4ng%20th%C6%B0%C6%A1ng%20hi%E1%BB%87u%20tr%C3%AAn%20Amazon%20-%20Alex%20Tr%E1%BA%A7n%2C%20Tony%20Trieu_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 15 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/Pr2XZm1/10-cau-noi-van-nang.jpg" alt="10 Câu Nói Vạn Năng">
-                </div>
-                <div class="description-container">
-                    <h3>10 CÂU NÓI VẠN NĂNG</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Rich Devos</li>
-                        <li class="no-border">Thể Loại: Kỹ Năng Sống</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/10%20c%C3%A2u%20n%C3%B3i%20v%E1%BA%A1n%20n%C4%83ng%20-%20Rich%20DeVos_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 16 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/Mg3SYmd/10-loi-khuyen-khoi-nghiep.jpg" alt="10 LỜI KHUYÊN KHỞI NGHIỆP">
-                </div>
-                <div class="description-container">
-                    <h3>10 LỜI KHUYÊN KHỞI NGHIỆP</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Caspian Woods</li>
-                        <li class="no-border">Thể Loại: Kinh Tế</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/10%20l%E1%BB%9Di%20khuy%C3%AAn%20kh%E1%BB%9Fi%20nghi%E1%BB%87p%20-%20Caspian%20Woods_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 17 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/pzZFsZF/10-nguyen-tac-vang-de-song-khong-hoi-tiec.webp" alt="10 NGUYÊN TẮC VÀNG ĐỂ SỐNG KHÔNG HỐI TIẾC">
-                </div>
-                <div class="description-container">
-                    <h3>10 NGUYÊN TẮC VÀNG ĐỂ SỐNG KHÔNG HỐI TIẾC</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: John C. Maxwell</li>
-                        <li class="no-border">Thể Loại: Phát Triển Bản Thân</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/10%20nguy%C3%AAn%20t%E1%BA%AFc%20v%C3%A0ng%20%C4%91%E1%BB%83%20s%E1%BB%91ng%20kh%C3%B4ng%20h%E1%BB%91i%20ti%E1%BA%BFc%20-%20John%20C.%20Maxwell_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 18 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/ky1fGY2/10-dieu-tao-nen-so-phan.jpg" alt="10 ĐIỀU TẠO NÊN SỐ PHẬN">
-                </div>
-                <div class="description-container">
-                    <h3>10 ĐIỀU TẠO NÊN SỐ PHẬN</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: David Simon</li>
-                        <li class="no-border">Thể Loại: Kỹ Năng Sống</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/10%20%C4%91i%E1%BB%81u%20t%E1%BA%A1o%20n%C3%AAn%20s%E1%BB%91%20ph%E1%BA%ADn%20-%20David%20Simon%2C%20M.D_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 19 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/9p0xWXV/10-hanh-phuc-hon.webp" alt="10% HẠNH PHÚC HƠN">
-                </div>
-                <div class="description-container">
-                    <h3>10% HẠNH PHÚC HƠN</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Dan Harris</li>
-                        <li class="no-border">Thể Loại: Kỹ Năng Sống</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/10%25%20h%E1%BA%A1nh%20ph%C3%BAc%20h%C6%A1n%20-%20Dan%20Harris_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 20 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/GcDyJz6/100-quy-luat-bat-bien-de-thanh-cong-trong-kinh-doanh.jpg" alt="100 QUY LUẬT BẤT BIẾN ĐỂ THÀNH CÔNG TRONG KINH DOANH">
-                </div>
-                <div class="description-container">
-                    <h3>100 QUY LUẬT BẤT BIẾN ĐỂ THÀNH CÔNG TRONG KINH DOANH</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Brian Tracy</li>
-                        <li class="no-border">Thể Loại: Kinh Doanh</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/100%20quy%20lu%E1%BA%ADt%20b%E1%BA%A5t%20bi%E1%BA%BFn%20%C4%91%E1%BB%83%20th%C3%A0nh%20c%C3%B4ng%20trong%20kinh%20doanh%20-%20Brian%20Tracy_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 21 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/kq3YtNp/100-y-tuong-ban-hang-hay-nhat-moi-thoi-dai.webp" alt="100 Ý TƯỞNG BÁN HÀNG HAY NHẤT MỌI THỜI ĐẠI">
-                </div>
-                <div class="description-container">
-                    <h3>100 Ý TƯỞNG BÁN HÀNG HAY NHẤT MỌI THỜI ĐẠI</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Ken Langdon</li>
-                        <li class="no-border">Thể Loại: Kinh Tế</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/100%20%C3%BD%20t%C6%B0%E1%BB%9Fng%20b%C3%A1n%20h%C3%A0ng%20hay%20nh%E1%BA%A5t%20m%E1%BB%8Di%20th%E1%BB%9Di%20%C4%91%E1%BA%A1i%20-%20Ken%20Langdon_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 22 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/YBkTg2X/1001y-tuong-dot-pha-trong-qcao.webp" alt="1001 Ý TƯỞNG ĐỘT PHÁ TRONG QUẢNG CÁO">
-                </div>
-                <div class="description-container">
-                    <h3>1001 Ý TƯỞNG ĐỘT PHÁ TRONG QUẢNG CÁO</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Luc Dupont</li>
-                        <li class="no-border">Thể Loại: Marketing</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/1001%20%C3%9D%20t%C6%B0%E1%BB%9Fng%20%C4%91%E1%BB%99t%20ph%C3%A1%20trong%20qu%E1%BA%A3ng%20c%C3%A1o%20-%20Luc%20Dupont_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 23 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/PmkqZ1g/101-meo-doi-pho-voi-nhan-vien.jpg" alt="101 MẸO ĐỐI PHÓ VỚI NHÂN VIÊN">
-                </div>
-                <div class="description-container">
-                    <h3>101 MẸO ĐỐI PHÓ VỚI NHÂN VIÊN</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Thành Đạt</li>
-                        <li class="no-border">Thể Loại: Kỹ Năng Sống</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/101%20M%E1%BA%B9o%20%C4%91%E1%BB%91i%20ph%C3%B3%20v%E1%BB%9Bi%20nh%C3%A2n%20vi%C3%AAn%20-%20Th%C3%A0nh%20%C4%90%E1%BA%A1t_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 24 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/tssjL3p/101-meo-doi-pho-voi-dong-nghiep.jpg" alt="101 MẸO ĐỐI PHÓ VỚI ĐỒNG NGHIỆP">
-                </div>
-                <div class="description-container">
-                    <h3>101 MẸO ĐỐI PHÓ VỚI ĐỒNG NGHIỆP</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Phan Hiếu</li>
-                        <li class="no-border">Thể Loại: Kỹ Năng Sống</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/101%20M%E1%BA%B9o%20%C4%91%E1%BB%91i%20ph%C3%B3%20v%E1%BB%9Bi%20%C4%91%E1%BB%93ng%20nghi%E1%BB%87p%20-%20Phan%20Hi%E1%BA%BFu_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 25 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/WPp1dkT/101-tinh-huong-nhan-su-nan-giai.jpg" alt="101 TÌNH HUỐNG NHÂN SỰ NAN GIẢI">
-                </div>
-                <div class="description-container">
-                    <h3>101 TÌNH HUỐNG NHÂN SỰ NAN GIẢI</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Paul Falcone</li>
-                        <li class="no-border">Thể Loại: Quản Trị - Lãnh Đạo</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/101%20t%C3%ACnh%20hu%E1%BB%91ng%20nh%C3%A2n%20s%E1%BB%B1%20nan%20gi%E1%BA%A3i%20-%20Paul%20Falcone_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 26 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/B2vVTQY/101-dieu-truong-hoc-chua-bao-gio-day-ban.jpg" alt="101 ĐIỀU TRƯỜNG HỌC CHƯA BAO GIỜ DẠY BẠN">
-                </div>
-                <div class="description-container">
-                    <h3>101 ĐIỀU TRƯỜNG HỌC CHƯA BAO GIỜ DẠY BẠN</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Hà Trang</li>
-                        <li class="no-border">Thể Loại: Kỹ Năng Sống</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/101%20%C4%91i%E1%BB%81u%20tr%C6%B0%E1%BB%9Dng%20h%E1%BB%8Dc%20ch%C6%B0a%20bao%20gi%E1%BB%9D_.%20d%E1%BA%A1y%20b%E1%BA%A1n%20-%20H%C3%A0%20Trang_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 27 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/Zf85rWh/108-ky-nang-cua-nha-lanh-dao-bam-sinh.webp" alt="108 KỸ NĂNG CỦA NHÀ LÃNH ĐẠO BẨM SINH">
-                </div>
-                <div class="description-container">
-                    <h3>108 KỸ NĂNG CỦA NHÀ LÃNH ĐẠO BẨM SINH</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Warren Blank</li>
-                        <li class="no-border">Thể Loại: Kinh Tế</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/108%20k%E1%BB%B9%20n%C4%83ng%20c%E1%BB%A7a%20nh%C3%A0%20l%C3%A3nh%20%C4%91%E1%BA%A1o%20b%E1%BA%A9m%20sinh%20-%20Warren%20Blank_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 28 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/b5KGYQ0/12-tuyet-ky-ban-hang.webp" alt="12 TUYỆT KỸ BÁN HÀNG">
-                </div>
-                <div class="description-container">
-                    <h3>12 TUYỆT KỸ BÁN HÀNG</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Brian Tracy</li>
-                        <li class="no-border">Thể Loại: Marketing</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/12%20Tuy%E1%BB%87t%20k%E1%BB%B9%20b%C3%A1n%20h%C3%A0ng%20-%20Brian%20Tracy_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 29 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/5nk3NbV/14-nguyen-tac-tang-truong-than-toc-nhu-amazon.webp" alt="14 NGUYÊN TÁC TĂNG TRƯỞNG THẦN TỐC NHƯ AMAZON">
-                </div>
-                <div class="description-container">
-                    <h3>14 NGUYÊN TÁC TĂNG TRƯỞNG THẦN TỐC NHƯ AMAZON</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Steve Anderson</li>
-                        <li class="no-border">Thể Loại: Kinh Tế</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/14%20Nguy%C3%AAn%20t%E1%BA%AFc%20t%C4%83ng%20tr%C6%B0%E1%BB%9Fng%20th%E1%BA%A7n%20t%E1%BB%91c%20nh%C6%B0%20Amazon%20-%20Steve%20Anderson_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 30 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/8gYZd01/15-nguyen-tac-vang-ve-phat-trien-ban-than.webp" alt="15 NGUYÊN TẮC VÀNG VỀ PHÁT TRIỂN BẢN THÂN">
-                </div>
-                <div class="description-container">
-                    <h3>15 NGUYÊN TẮC VÀNG VỀ PHÁT TRIỂN BẢN THÂN</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: John C. Maxwell</li>
-                        <li class="no-border">Thể Loại: Kỹ Năng Sống</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/15%20Nguy%C3%AAn%20t%E1%BA%AFc%20v%C3%A0ng%20v%E1%BB%81%20ph%C3%A1t%20tri%E1%BB%83n%20b%E1%BA%A3n%20th%C3%A2n%20-%20John%20C.%20Maxwell_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 31 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/Gdn36TL/1Q84.webp" alt="1Q84">
-                </div>
-                <div class="description-container">
-                    <h3>1Q84</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Haruki Murakami</li>
-                        <li class="no-border">Thể Loại: Tiểu Thuyết</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/1Q84%20-%20Haruki%20Murakami_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 32 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/hL5kQ1F/20-hanh-trang-cho-chuyen-xe-tuoi-20s.webp" alt="20 HÀNH TRANG CHO CHUYẾN XE TUỔI 20S">
-                </div>
-                <div class="description-container">
-                    <h3>20 HÀNH TRANG CHO CHUYẾN XE TUỔI 20S</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Nguyễn Mai Đức</li>
-                        <li class="no-border">Thể Loại: Kỹ Năng Sống</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-						<li class="no-border">
-							<div class="button-container">
-							<a href="https://archive.org/download/ebook-for-free/20%20h%C3%A0nh%20trang%20cho%20chuy%E1%BA%BFn%20xe%20tu%E1%BB%95i%2020s%20-%20Nguy%E1%BB%85n%20Mai%20%C4%90%E1%BB%A9c_jp2.zip" target="_blank">Download</a>
-							</div>
-						</li>
-                    </ul>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 33 -->
-                <div class="img-container">
-                    <img src="https://i.ibb.co/x6NY0y0/20-tuoi-tro-thanh-nguoi-biet-noi-gioi-lam.webp" alt="20 TUỔI TRỞ THÀNH NGƯỜI BIẾT NÓI, GIỎI LÀM">
-                </div>
-                <div class="description-container">
-                    <h3>20 TUỔI TRỞ THÀNH NGƯỜI BIẾT NÓI, GIỎI LÀM</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: Alpha Books</li>
-                        <li class="no-border">Thể Loại: Phát triển bản thân</li>
-                        <li class="no-border">Ngôn Ngữ: Tiếng Việt</li>
-                    </ul>
-                </div>
-                <div class="button-container">
-                    <a href="https://archive.org/download/ebook-for-free/20%20tu%E1%BB%95i%20tr%E1%BB%9F%20th%C3%A0nh%20ng%C6%B0%E1%BB%9Di%20bi%E1%BA%BFt%20n%C3%B3i%2C%20gi%E1%BB%8Fi%20l%C3%A0m%20-%20Alpha%20Book%20bi%C3%AAn%20so%E1%BA%A1n_jp2.zip" target="_blank">Download</a>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 34 -->
-                <div class="img-container">
-                    <img src="Link Ảnh" alt="20-30 TUỔI CÀNG NHIỀU CỐ GẮNG CÀNG LẮM MAY MẮN">
-                </div>
-                <div class="description-container">
-                    <h3>20-30 TUỔI CÀNG NHIỀU CỐ GẮNG CÀNG LẮM MAY MẮN</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: #</li>
-                        <li class="no-border">Thể Loại: #</li>
-                        <li class="no-border">Ngôn Ngữ: #</li>
-                    </ul>
-                </div>
-                <div class="button-container">
-                    <a href="https://archive.org/download/ebook-for-free/20-30%20tu%E1%BB%95i%20c%C3%A0ng%20nhi%E1%BB%81u%20c%E1%BB%91%20g%E1%BA%AFng%20c%C3%A0ng%20l%E1%BA%AFm%20may%20m%E1%BA%AFn%20-%20Li%C3%AAu%20Tr%C3%AD%20Phong_jp2.zip" target="_blank">Download</a>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 35 -->
-                <div class="img-container">
-                    <img src="Link Ảnh" alt="21 NGUYÊN TẮC TỰ DO TÀI CHÍNH">
-                </div>
-                <div class="description-container">
-                    <h3>21 NGUYÊN TẮC TỰ DO TÀI CHÍNH</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: #</li>
-                        <li class="no-border">Thể Loại: #</li>
-                        <li class="no-border">Ngôn Ngữ: #</li>
-                    </ul>
-                </div>
-                <div class="button-container">
-                    <a href="https://archive.org/download/ebook-for-free/21%20nguy%C3%AAn%20t%E1%BA%AFc%20t%E1%BB%B1%20do%20t%C3%A0i%20ch%C3%ADnh%20-%20Brian%20Tracy_jp2.zip" target="_blank">Download</a>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 36 -->
-                <div class="img-container">
-                    <img src="Link Ảnh" alt="21 NGUYÊN TẮC VÀNG CỦA NGHỆ THUẬT LÃNH ĐẠO">
-                </div>
-                <div class="description-container">
-                    <h3>21 NGUYÊN TẮC VÀNG CỦA NGHỆ THUẬT LÃNH ĐẠO</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: #</li>
-                        <li class="no-border">Thể Loại: #</li>
-                        <li class="no-border">Ngôn Ngữ: #</li>
-                    </ul>
-                </div>
-                <div class="button-container">
-                    <a href="https://archive.org/download/ebook-for-free/21%20nguy%C3%AAn%20t%E1%BA%AFc%20v%C3%A0ng%20c%E1%BB%A7a%20ngh%E1%BB%87%20thu%E1%BA%ADt%20l%C3%A3nh%20%C4%91%E1%BA%A1o%20-%20John%20C.%20Maxwell_jp2.zip" target="_blank">Download</a>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 37 -->
-                <div class="img-container">
-                    <img src="Link Ảnh" alt="21 PHẨM CHẤT VÀNG CỦA NHÀ LÃNH ĐẠO">
-                </div>
-                <div class="description-container">
-                    <h3>21 PHẨM CHẤT VÀNG CỦA NHÀ LÃNH ĐẠO</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: #</li>
-                        <li class="no-border">Thể Loại: #</li>
-                        <li class="no-border">Ngôn Ngữ: #</li>
-                    </ul>
-                </div>
-                <div class="button-container">
-                    <a href="https://archive.org/download/ebook-for-free/21%20ph%E1%BA%A9m%20ch%E1%BA%A5t%20v%C3%A0ng%20c%E1%BB%A7a%20nh%C3%A0%20l%C3%A3nh%20%C4%91%E1%BA%A1o%20-%20John%20C.%20Maxwell_jp2.zip" target="_blank">Download</a>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 38 -->
-                <div class="img-container">
-                    <img src="Link Ảnh" alt="22 QUY LUẬT BẤT BIẾT TRONG XÂY DỰNG THƯƠNG HIỆU">
-                </div>
-                <div class="description-container">
-                    <h3>22 QUY LUẬT BẤT BIẾT TRONG XÂY DỰNG THƯƠNG HIỆU</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: #</li>
-                        <li class="no-border">Thể Loại: #</li>
-                        <li class="no-border">Ngôn Ngữ: #</li>
-                    </ul>
-                </div>
-                <div class="button-container">
-                    <a href="https://archive.org/download/ebook-for-free/22%20quy%20lu%E1%BA%ADt%20b%E1%BA%A5t%20bi%E1%BA%BFn%20trong%20x%C3%A2y%20d%E1%BB%B1ng%20th%C6%B0%C6%A1ng%20hi%E1%BB%87u%20-%20Al%20Ries%20%26%20Laura%20Ries_jp2.zip" target="_blank">Download</a>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 39 -->
-                <div class="img-container">
-                    <img src="Link Ảnh" alt="25 THUẬT ĐẮC NHÂN TÂM">
-                </div>
-                <div class="description-container">
-                    <h3>25 THUẬT ĐẮC NHÂN TÂM</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: #</li>
-                        <li class="no-border">Thể Loại: #</li>
-                        <li class="no-border">Ngôn Ngữ: #</li>
-                    </ul>
-                </div>
-                <div class="button-container">
-                    <a href="https://archive.org/download/ebook-for-free/25%20thu%E1%BA%ADt%20%C4%91%E1%BA%AFc%20nh%C3%A2n%20t%C3%A2m%20-%20John%20C.%20Maxwell_jp2.zip" target="_blank">Download</a>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 40 -->
-                <div class="img-container">
-                    <img src="Link Ảnh" alt="27 THÁCH THỨC CỦA NHÀ QUẢN LÝ">
-                </div>
-                <div class="description-container">
-                    <h3>27 THÁCH THỨC CỦA NHÀ QUẢN LÝ</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: #</li>
-                        <li class="no-border">Thể Loại: #</li>
-                        <li class="no-border">Ngôn Ngữ: #</li>
-                    </ul>
-                </div>
-                <div class="button-container">
-                    <a href="https://archive.org/download/ebook-for-free/27%20th%C3%A1ch%20th%E1%BB%A9c%20c%E1%BB%A7a%20nh%C3%A0%20qu%E1%BA%A3n%20l%C3%BD%20-%20Bruce%20Tulgan_jp2.zip" target="_blank">Download</a>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 41 -->
-                <div class="img-container">
-                    <img src="Link Ảnh" alt="28">
-                </div>
-                <div class="description-container">
-                    <h3>28</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: #</li>
-                        <li class="no-border">Thể Loại: #</li>
-                        <li class="no-border">Ngôn Ngữ: #</li>
-                    </ul>
-                </div>
-                <div class="button-container">
-                    <a href="https://archive.org/download/ebook-for-free/28%20-%20Jeong%20You-Jeong_jp2.zip" target="_blank">Download</a>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 42 -->
-                <div class="img-container">
-                    <img src="Link Ảnh" alt="4 ĐẠI GIA KIỂM TOÁN">
-                </div>
-                <div class="description-container">
-                    <h3>4 ĐẠI GIA KIỂM TOÁN</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: #</li>
-                        <li class="no-border">Thể Loại: #</li>
-                        <li class="no-border">Ngôn Ngữ: #</li>
-                    </ul>
-                </div>
-                <div class="button-container">
-                    <a href="https://archive.org/download/ebook-for-free/4%20%C4%90%E1%BA%A1i%20Gia%20Ki%E1%BB%83m%20To%C3%A1n%20-%20Ian%20D.%20Gow%2C%20Stuart%20Kells_jp2.zip" target="_blank">Download</a>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 43 -->
-                <div class="img-container">
-                    <img src="Link Ảnh" alt="40 BÍ KÍP CHINH PHỤC KHÁCH HÀNG QUA ĐIỆN THOẠI">
-                </div>
-                <div class="description-container">
-                    <h3>40 BÍ KÍP CHINH PHỤC KHÁCH HÀNG QUA ĐIỆN THOẠI</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: #</li>
-                        <li class="no-border">Thể Loại: #</li>
-                        <li class="no-border">Ngôn Ngữ: #</li>
-                    </ul>
-                </div>
-                <div class="button-container">
-                    <a href="https://archive.org/download/ebook-for-free/40_%20B%C3%AD%20K%C3%ADp%20Chinh%20Ph%E1%BB%A5c%20Kh%C3%A1ch%20H%C3%A0ng%20Qua%20%C4%90i%E1%BB%87n%20Tho%E1%BA%A1i%20-%20Alpha%20Book%20bi%C3%AAn%20so%E1%BA%A1n_jp2.zip" target="_blank">Download</a>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 44 -->
-                <div class="img-container">
-                    <img src="Link Ảnh" alt="5 PHƯƠNG THỨC GHI NHẬN NỖ LỰC CỦA NHÂN VIÊN">
-                </div>
-                <div class="description-container">
-                    <h3>5 PHƯƠNG THỨC GHI NHẬN NỖ LỰC CỦA NHÂN VIÊN</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: #</li>
-                        <li class="no-border">Thể Loại: #</li>
-                        <li class="no-border">Ngôn Ngữ: #</li>
-                    </ul>
-                </div>
-                <div class="button-container">
-                    <a href="https://archive.org/download/ebook-for-free/5%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20ghi%20nh%E1%BA%ADn%20n%E1%BB%97%20l%E1%BB%B1c%20c%E1%BB%A7a%20nh%C3%A2n%20vi%C3%AAn%20-%20Gary%20Chapman%2C%20Paul%20White_jp2.zip" target="_blank">Download</a>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 45 -->
-                <div class="img-container">
-                    <img src="Link Ảnh" alt="5 NGÔN NGỮ TÌNH YÊU">
-                </div>
-                <div class="description-container">
-                    <h3>5 NGÔN NGỮ TÌNH YÊU</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: #</li>
-                        <li class="no-border">Thể Loại: #</li>
-                        <li class="no-border">Ngôn Ngữ: #</li>
-                    </ul>
-                </div>
-                <div class="button-container">
-                    <a href="https://archive.org/download/ebook-for-free/5%20ng%C3%B4n%20ng%E1%BB%AF%20t%C3%ACnh%20y%C3%AAu%20d%C3%A0nh%20cho%20nh%E1%BB%AFng%20ng%C6%B0%E1%BB%9Di%20ch%E1%BB%89%20c%C3%B3%20m%E1%BB%99t%20m%C3%ACnh%20-%20Gary%20Chapman_jp2.zip" target="_blank">Download</a>
-                </div>
-            </li>
-			<li class="no-border"> <!-- 46 -->
-                <div class="img-container">
-                    <img src="Link Ảnh" alt="5 ĐIỂM CHẾT TRONG TEAMWORK">
-                </div>
-                <div class="description-container">
-                    <h3>5 ĐIỂM CHẾT TRONG TEAMWORK</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: #</li>
-                        <li class="no-border">Thể Loại: #</li>
-                        <li class="no-border">Ngôn Ngữ: #</li>
-                    </ul>
-                </div>
-                <div class="button-container">
-                    <a href="https://archive.org/download/ebook-for-free/5%20%C4%91i%E1%BB%83m%20ch%E1%BA%BFt%20trong%20teamwork%20-%20Patrick%20Lencioni_jp2.zip" target="_blank">Download</a>
-                </div>
-            </li>
-			<!-- 
-			<li class="no-border">
-                <div class="img-container">
-                    <img src="Link Ảnh" alt="Tên Ebook">
-                </div>
-                <div class="description-container">
-                    <h3>Tên Ebook</h3>
-                    <ul>
-                        <li class="no-border">Tác Giả: #</li>
-                        <li class="no-border">Thể Loại: #</li>
-                        <li class="no-border">Ngôn Ngữ: #</li>
-                        <li class="no-border"><div style="text-align: justify;">nội dung sơ lược</div></li>
-                    </ul>
-                </div>
-                <div class="button-container">
-                    <a href="https://tinyurl.com/#" target="_blank">Download</a>
-                </div>
-            </li>
-            -->
-        </ul>
-        <div class="donate-container">
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-                <input type="hidden" name="cmd" value="_donations">
-                <input type="hidden" name="business" value="ngocthai2702@gmail.com">
-                <input type="hidden" name="item_name" value="Support for My Work">
-                <input type="hidden" name="currency_code" value="USD">
-                <input type="hidden" name="amount" value="1">
-                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!">
-                <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
-            </form>
+<body>
+    <div class="container">
+        <div class="center">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search..." oninput="searchList()">
+                <button onclick="searchList()">Search</button>
+            </div>
         </div>
+        <ul id="imageList">
+            <li>
+                <div class="image-container">
+                    <img src="https://i.ibb.co/zP5vcYH/10-quy-luat-cuoc-song.jpg" alt="10 Quy Luật Cuộc Sống" class="image">
+                    <p class="image-description">10 QUY LUẬT CUỘC SỐNG
+                        <br />
+                        <a href="https://archive.org/download/ebook-for-free/10%20Quy%20lu%E1%BA%ADt%20cu%E1%BB%99c%20s%E1%BB%91ng%20-%20Dan%20Sullivan%20-%20Catherine%20Nomura_jp2.zip" target="_blank" download>
+                            <button class="download-button">Download</button>
+                        </a>
+                    </p>
+                </div>
+            </li>
+			<li>
+                <div class="image-container">
+                    <img src="https://i.ibb.co/6B15zM4/10-van-cau-hoi-vi-sao-co-the-nguoi-2.jpg" alt="10 Vạn Câu Hỏi Vì Sao - Cơ Thể Người" class="image">
+                    <p class="image-description">10 VẠN CÂU HỎI VÌ SAO - CƠ THỂ NGƯỜI
+                        <br />
+                        <a href="https://archive.org/download/ebook-for-free/10%20V%E1%BA%A1n%20C%C3%A2u%20H%E1%BB%8Fi%20V%C3%AC%20Sao%20-%20C%C6%A1%20Th%E1%BB%83%20Ng%C6%B0%E1%BB%9Di%20-%20Nguy%E1%BB%85n%20V%C4%83n%20M%E1%BA%ADu_jp2.zip" target="_blank" download>
+                            <button class="download-button">Download</button>
+                        </a>
+                    </p>
+                </div>
+            </li>
+			<li>
+                <div class="image-container">
+                    <img src="https://i.ibb.co/Zd5SGnw/10-van-cau-hoi-vi-sao-hoa-hoc.jpg" alt="10 Vạn Câu Hỏi Vì Sao - Hóa Học" class="image">
+                    <p class="image-description">10 VẠN CÂU HỎI VÌ SAO - HÓA HỌC
+                        <br />
+                        <a href="https://archive.org/download/ebook-for-free/10%20V%E1%BA%A1n%20C%C3%A2u%20H%E1%BB%8Fi%20V%C3%AC%20Sao%20-%20H%C3%B3a%20H%E1%BB%8Dc%20-%20Nguy%E1%BB%85n%20V%C4%83n%20M%E1%BA%ADu_jp2.zip" target="_blank" download>
+                            <button class="download-button">Download</button>
+                        </a>
+                    </p>
+                </div>
+            </li>
+			<li>
+                <div class="image-container">
+                    <img src="https://i.ibb.co/jWK2zbX/10-van-cau-hoi-vi-sao-khoa-hoc-cong-trinh.jpg" alt="10 Vạn Câu Hỏi Vì Sao - Khoa Học Công Trình" class="image">
+                    <p class="image-description">10 VẠN CÂU HỎI VÌ SAO - KHOA HỌC CÔNG TRÌNH
+                        <br />
+                        <a href="https://archive.org/download/ebook-for-free/10%20V%E1%BA%A1n%20C%C3%A2u%20H%E1%BB%8Fi%20V%C3%AC%20Sao%20-%20Khoa%20H%E1%BB%8Dc%20C%C3%B4ng%20Tr%C3%ACnh%20-%20Nguy%E1%BB%85n%20V%C4%83n%20M%E1%BA%ADu_jp2.zip" target="_blank" download>
+                            <button class="download-button">Download</button>
+                        </a>
+                    </p>
+                </div>
+            </li>
+			<li>
+                <div class="image-container">
+                    <img src="https://i.ibb.co/2SdX2FJ/10-van-cau-hoi-vi-sao-dong-vat.jpg" alt="10 Vạn Câu Hỏi Vì Sao - Động Vật" class="image">
+                    <p class="image-description">10 VẠN CÂU HỎI VÌ SAO - ĐỘNG VẬT
+                        <br />
+                        <a href="https://archive.org/download/ebook-for-free/10%20V%E1%BA%A1n%20C%C3%A2u%20H%E1%BB%8Fi%20V%C3%AC%20Sao%20-%20%C4%90%E1%BB%99ng%20V%E1%BA%ADt%20-%20Nguy%E1%BB%85n%20V%C4%83n%20M%E1%BA%ADu_jp2.zip" target="_blank" download>
+                            <button class="download-button">Download</button>
+                        </a>
+                    </p>
+                </div>
+            </li>
+            <!-- 
+			<li>
+                <div class="image-container">
+                    <img src="LINK ẢNH" alt="TÊN EBOOK" class="image">
+                    <p class="image-description">TÊN EBOOK
+                        <br />
+                        <a href="LINK DOWNLOAD" target="_blank" download>
+                            <button class="download-button">Download</button>
+                        </a>
+                    </p>
+                </div>
+            </li>
+			-->
+
+            <!-- Add more list items as needed -->
+
+            <!-- Add more list items as needed -->
+
+            <!-- Add more list items as needed -->
+
+            <!-- Add more list items as needed -->
+        </ul>
+        <p id="noResultMessage" style="display: none;">No results found.</p>
     </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
