@@ -81,6 +81,7 @@ li {
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  width: 300px; /* Đặt chiều rộng mong muốn, bạn có thể thay đổi giá trị này */
   margin-right: 5px;
   flex-grow: 2; /* Chiều rộng linh hoạt, tăng giá trị để làm ô tìm kiếm dài hơn */
 }
