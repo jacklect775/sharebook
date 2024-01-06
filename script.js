@@ -1,24 +1,27 @@
 <!-- main script -->
 function searchList() {
-  var input, filter, list, items, i, txtValue;
-  input = document.getElementById("searchInput");
-  filter = input.value.trim().toLowerCase();
-  list = document.getElementById("ebook-list");
-  items = list.getElementsByTagName("li");
-  var noResults = true;
+    var input, filter, list, items, i, txtValue;
+    input = document.getElementById("searchInput");
+    filter = input.value.trim().toLowerCase();
+    list = document.getElementsByClassName("ebook-list")[0]; // Sửa thành lớp chứa danh sách
+    items = list.getElementsByTagName("li");
+    var noResults = true;
 
-  for (i = 0; i < items.length; i++) {
-    txtValue = items[i].querySelector(".description-container h3").textContent.toLowerCase();
-    if (txtValue.includes(filter)) {
-      items[i].style.display = "block";
-      noResults = false;
-    } else {
-      items[i].style.display = "none";
+    for (i = 0; i < items.length; i++) {
+        txtValue = items[i].querySelector(".description-container h3").textContent.toLowerCase();
+        if (txtValue.includes(filter)) {
+            items[i].style.display = "block";
+            noResults = false;
+        } else {
+            items[i].style.display = "none";
+        }
     }
-  }
 
-  var noResultMessage = document.getElementById("noResultMessage");
-  noResultMessage.style.display = noResults ? "block" : "none";
+    // Thêm hiển thị thông báo khi không tìm thấy kết quả
+    var noResultMessage = document.getElementById("noResultMessage");
+    if (noResultMessage) {
+        noResultMessage.style.display = noResults ? "block" : "none";
+    }
 }
 
 <!-- Ngăn chặn sự kiện khi nhấn các tổ hợp phím Ctrl + U, Ctrl + S, Ctrl + I, Ctrl + C -->
