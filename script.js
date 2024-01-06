@@ -8,8 +8,8 @@ function searchList() {
   var noResults = true;
 
   for (i = 0; i < items.length; i++) {
-    txtValue = items[i].querySelector(".image-description").textContent.toLowerCase();
-    if (txtValue.indexOf(filter) > -1) {
+    txtValue = items[i].querySelector(".description-container h3").textContent.toLowerCase();
+    if (txtValue.includes(filter)) {
       items[i].style.display = "block";
       noResults = false;
     } else {
@@ -18,12 +18,9 @@ function searchList() {
   }
 
   var noResultMessage = document.getElementById("noResultMessage");
-  if (noResults) {
-    noResultMessage.style.display = "block";
-  } else {
-    noResultMessage.style.display = "none";
-  }
+  noResultMessage.style.display = noResults ? "block" : "none";
 }
+
 <!-- Ngăn chặn sự kiện khi nhấn các tổ hợp phím Ctrl + U, Ctrl + S, Ctrl + I, Ctrl + C -->
 
 document.addEventListener("keydown", function(event) {
